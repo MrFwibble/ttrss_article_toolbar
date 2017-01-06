@@ -1,13 +1,13 @@
 <?php
-class framarticle_toolbar extends Plugin {
+class article_toolbar extends Plugin {
 
 	private $link;
 	private $host;
 
 	function about() {
-		return array(0.3,
-			"Toolbar for easy access to feed functions, based on https://github.com/idoxlr8/article_toolbar",
-			"ldidry", false);
+		return array(0.1,
+			"Toolbar for easy access to feed functions, based on https://github.com/framasoft/ttrss_article_toolbar",
+			"MrFwibble", false);
 	}
 
 	function init($host) {
