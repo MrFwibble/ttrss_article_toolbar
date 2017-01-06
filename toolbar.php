@@ -1,7 +1,7 @@
 <?php
 global $link;
 
-echo stylesheet_tag("plugins.local/article_toolbar/css/font-awesome.css");
+echo stylesheet_tag("plugins.local/ttrss_article_toolbar/css/font-awesome.css");
 print_user_stylesheet($link);
 ?>
 <span id="framarticle-toolbar">
