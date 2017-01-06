@@ -1,5 +1,5 @@
 <?php
-class article_toolbar extends Plugin {
+class ttrss_article_toolbar extends Plugin {
 
 	private $link;
 	private $host;
